@@ -6,7 +6,7 @@ Advanced calculator that contains very interesting things - will update soon
 ```
 smart_calculator/
 │
-├── app.py                     # Main Python entry point (Flask/Django backend)
+├── app.py                     # Main Python entry point (Flask backend)
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # Project documentation
 │
