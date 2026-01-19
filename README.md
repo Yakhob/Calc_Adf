@@ -69,7 +69,7 @@ smart_calculator/
 │
 ├── templates/
 │   ├── base.html              # Base layout
-│   ├── index.html             # Home page
+│   ├── index.html             # Removed
 │   ├── calculator.html        # Calculator UI
 │   ├── converters.html        # Converter UI
 │   └── graph.html             # Graph visualization page
