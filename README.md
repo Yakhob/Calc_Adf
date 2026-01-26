@@ -2,7 +2,10 @@
 Advanced calculator that contains very interesting things - will update soon
 ```
 Updated Templates has Completed
+Calculator Part Completed
+database/,api,converters,history are in shedule 
 ```
+
 # this is a concept of the folder structure will add changes as new updates are added #
 
 ```
