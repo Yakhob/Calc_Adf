@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Calculator</title>
+
+    <!-- Base CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+
+    <!-- Page-specific CSS -->
+    {% block styles %}{% endblock %}
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <!-- Top Navigation -->
+    <header class="top-nav">
+        <nav>
+            <a href="/calculator" class="nav-item">Calculator</a>
+            <a href="/converters" class="nav-item">Converter</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content">
+        {% block content %}{% endblock %}
+    </main>
+
+</body>
+</html>

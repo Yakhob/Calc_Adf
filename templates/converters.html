@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/converters.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="converter-container">
+    <div class="converter-grid">
+
+        <div class="converter-item">💱<p>Currency</p></div>
+        <div class="converter-item">📏<p>Length</p></div>
+        <div class="converter-item">⚖️<p>Mass</p></div>
+        <div class="converter-item">📐<p>Area</p></div>
+        <div class="converter-item">⏱️<p>Time</p></div>
+        <div class="converter-item">🧊<p>Volume</p></div>
+        <div class="converter-item">🚀<p>Speed</p></div>
+        <div class="converter-item">🌡️<p>Temperature</p></div>
+        <div class="converter-item">🧍<p>BMI</p></div>
+        <div class="converter-item">🧾<p>GST</p></div>
+
+    </div>
+</div>
+{% endblock %}
