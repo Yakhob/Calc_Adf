@@ -1,6 +1,8 @@
 # Calc_Adf
 Advanced calculator that contains very interesting things - will update soon
-
+```
+Updated Templates has Completed
+```
 # this is a concept of the folder structure will add changes as new updates are added #
 
 ```
